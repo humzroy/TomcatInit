@@ -13,6 +13,7 @@ How to use?
   chmod +x /etc/init.d/tomcat
   
 设置启动脚本JAVA_HOME：
+
   sed -i 's@^export JAVA_HOME=.*@export JAVA_HOME=/usr/java/jdk1.8.0_191@' /etc/init.d/tomcat
   
 设置自启动：
